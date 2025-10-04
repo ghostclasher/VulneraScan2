@@ -1,0 +1,39 @@
+rules:
+############################################################
+# Java Rules
+############################################################
+- id: java-sql-injection
+  patterns:
+    - pattern: 'Statement.executeQuery($SQL)'
+    - pattern: 'Statement.execute($SQL)'
+    - pattern: 'executeUpdate($SQL)'
+  message: "Potential SQL Injection"
+  languages: [java]
+  severity: ERROR
+
+- id: java-hardcoded-secret
+  pattern: 'String $SECRET = "hardcoded";'
+  message: "Hardcoded secret detected"
+  languages: [java]
+  severity: WARNING
+
+############################################################
+# C / C++ Rules
+############################################################
+- id: cpp-hardcoded-secret
+  pattern: 'char $SECRET[] = "hardcoded";'
+  message: "Hardcoded secret detected"
+  languages: [c, cpp]
+  severity: WARNING
+
+############################################################
+# JavaScript Rules
+############################################################
+- id: js-hardcoded-secret
+  patterns:
+    - pattern: 'const $SECRET = "hardcoded";'
+    - pattern: 'var $SECRET = "hardcoded";'
+    - pattern: 'let $SECRET = "hardcoded";'
+  message: "Hardcoded secret detected"
+  languages: [javascript]
+  severity: WARNING

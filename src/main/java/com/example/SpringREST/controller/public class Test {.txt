@@ -1,0 +1,5 @@
+public class Test {
+    private static final String AWS_KEY = "AKIA1234567890ABCDEF";
+    private static final String API_TOKEN = "ghp_1234567890abcdefghijklmnopqrstuvwxyz";
+    echo "const apiKey = 'AKIA1234567890ABCDEF'" > test.js
+}

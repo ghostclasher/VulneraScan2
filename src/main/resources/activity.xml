@@ -1,0 +1,128 @@
+<mxfile host="app.diagrams.net" modified="2025-09-18T17:32:51.141Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" etag="kL9mN8oP7qR6sT5uV4wX_fixed" version="21.7.5" type="device">
+  <diagram name="Page-1" id="f0a1b2c3-d4e5-f6a7-b8c9-d0e1f2a3b4c5_fixed">
+    <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="actor_user" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline_frontend" value="Frontend (React)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="100" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline_backend" value="Backend API (Spring Boot)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="120" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline_orchestrator" value="Scan Orchestrator" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="40" width="100" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline_scanners" value="Scanner Wrappers" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="40" width="100" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline_db" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="40" width="100" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="activation_frontend_1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="lifeline_frontend">
+          <mxGeometry y="80" width="10" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="activation_backend_1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="lifeline_backend">
+          <mxGeometry y="110" width="10" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="activation_orchestrator_1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="lifeline_orchestrator">
+          <mxGeometry y="150" width="10" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="activation_scanners_1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="lifeline_scanners">
+          <mxGeometry y="260" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="activation_db_1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="lifeline_db">
+          <mxGeometry y="580" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="msg_upload" value="1. UploadCode(file, profile)" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" parent="1" source="actor_user" target="lifeline_frontend">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="120" as="sourcePoint" />
+            <mxPoint x="195" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_start_scan" value="2. POST /startScan" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="activation_frontend_1" target="lifeline_backend">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_orchestrate" value="3. initiateScan(file)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="activation_backend_1" target="lifeline_orchestrator">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fragment_parallel" value="par" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="msg_run_semgrep" value="4.1 runSemgrep(code)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="fragment_parallel" source="lifeline_orchestrator" target="lifeline_scanners">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="35" y="40" as="sourcePoint" />
+            <mxPoint x="175" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_semgrep_results" value="rawResults" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;" edge="1" parent="fragment_parallel" source="lifeline_scanners" target="lifeline_orchestrator">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="70" as="sourcePoint" />
+            <mxPoint x="35" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_run_gitleaks" value="4.2 runGitleaks(code)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="fragment_parallel" source="lifeline_orchestrator" target="lifeline_scanners">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="35" y="120" as="sourcePoint" />
+            <mxPoint x="175" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_gitleaks_results" value="rawResults" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;" edge="1" parent="fragment_parallel" source="lifeline_scanners" target="lifeline_orchestrator">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="150" as="sourcePoint" />
+            <mxPoint x="35" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_run_sca" value="4.3 runSCA(code)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="fragment_parallel" source="lifeline_orchestrator" target="lifeline_scanners">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="35" y="200" as="sourcePoint" />
+            <mxPoint x="175" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_sca_results" value="rawResults" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;" edge="1" parent="fragment_parallel" source="lifeline_scanners" target="lifeline_orchestrator">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="230" as="sourcePoint" />
+            <mxPoint x="35" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_aggregate" value="5. aggregateResults()" style="html=1;verticalAlign=bottom;endArrow=block;loop=1;" edge="1" parent="1" source="activation_orchestrator_1" target="activation_orchestrator_1">
+          <mxGeometry x="-40" y="0" relative="1" as="geometry">
+            <mxPoint x="515" y="540" as="sourcePoint" />
+            <mxPoint x="555" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_save_results" value="6. saveResults(report)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="activation_orchestrator_1" target="lifeline_db">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="600" as="sourcePoint" />
+            <mxPoint x="855" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_scan_complete_orchestrator" value="scanComplete(scanId)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;" edge="1" parent="1" source="activation_orchestrator_1" target="lifeline_backend">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="680" as="sourcePoint" />
+            <mxPoint x="335" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_scan_complete_backend" value="200 OK (scanId)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;" edge="1" parent="1" source="activation_backend_1" target="lifeline_frontend">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="750" as="sourcePoint" />
+            <mxPoint x="175" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_display_results" value="7. displayResults()" style="html=1;verticalAlign=bottom;endArrow=block;loop=1;" edge="1" parent="1" source="activation_frontend_1" target="activation_frontend_1">
+          <mxGeometry x="-40" y="0" relative="1" as="geometry">
+            <mxPoint x="175" y="780" as="sourcePoint" />
+            <mxPoint x="215" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
