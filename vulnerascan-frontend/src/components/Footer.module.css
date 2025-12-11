@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 12px;
+  background: linear-gradient(90deg, #081028 0%, #0d1b3a 100%);
+  color: #fff;
+  font-size: 0.92rem;
+  border-top: 1px solid rgba(255,255,255,0.04);
+}
+.footer a {
+  color: #9ae6ff;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer .legal {
+  opacity: 0.85;
+  font-size: 0.9rem;
+}
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 14px 32px;
+  }
+}

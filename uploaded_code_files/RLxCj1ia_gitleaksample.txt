@@ -1,0 +1,28 @@
+# ---- GITLEAKS TEST FILE ----
+# This file includes fake secrets that will ALWAYS be detected by Gitleaks.
+
+# Hardcoded Passwords
+db_password = "SuperSecret123!"
+admin_password = "P@ssw0rd987"
+
+# AWS Access Keys (FAKE but matching real pattern)
+AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE"
+AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+
+# GitHub Token (Fake but pattern-matching)
+GITHUB_TOKEN = "ghp_abcdEFGHijklmNOPQ1234567890rstuVWXYZ"
+
+# Slack Webhook (Fake)
+SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX"
+
+# Private Key Block
+-----BEGIN PRIVATE KEY-----
+MIIBVgIBADANBgkqhkiG9w0BAQEFAASCAT8wggE7AgEAAkEAu3Vt2XNq7k0xNqLs
+x6vJp8HPZrEXAMPLEKEYDATAoPoA7rq7q0vEZe6H0qMS5gIDAQABAkA9C6v1t5kV
+lSl1lCbk4N3cSAg9H8qPu9YFh3mbc4GcRnLtPf+h3opai4x8U8x77vQEXAMPLEKEY
+-----END PRIVATE KEY-----
+
+# API Keys
+STRIPE_SECRET_KEY = "sk_test_4eC39HqLyjWDarjtT1zdp7dc"
+SENDGRID_API_KEY = "SG.EXAMPLE1234567890fakekey"
+
