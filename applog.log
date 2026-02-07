@@ -1,21 +1,21 @@
-2025-12-11 14:15:18,421 [INFO] com.example.SpringREST.SpringRestApplication [main] Starting SpringRestApplication using Java 21.0.4 with PID 13024 (C:\SPRING BOOT (VS CODE)\VulneraScan\target\classes started by udayg in C:\SPRING BOOT (VS CODE)\VulneraScan)
-2025-12-11 14:15:18,431 [DEBUG] com.example.SpringREST.SpringRestApplication [main] Running with Spring Boot v3.4.4, Spring v6.2.5
-2025-12-11 14:15:18,432 [INFO] com.example.SpringREST.SpringRestApplication [main] No active profile set, falling back to 1 default profile: "default"
-2025-12-11 14:15:20,311 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-11 14:15:20,419 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 90 ms. Found 7 JPA repository interfaces.
-2025-12-11 14:15:21,552 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
-2025-12-11 14:15:21,572 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
-2025-12-11 14:15:21,574 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-12-11 14:15:21,681 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
-2025-12-11 14:15:21,682 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3169 ms
-2025-12-11 14:15:22,180 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-11 14:15:22,285 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-12-11 14:15:22,343 [INFO] org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
-2025-12-11 14:15:22,778 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-11 14:15:22,831 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2025-12-11 14:15:23,135 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./db/db user=ADMIN
-2025-12-11 14:15:23,137 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2025-12-11 14:15:23,218 [INFO] org.hibernate.orm.connections.pooling [main] HHH10001005: Database info:
+2026-02-07 20:27:20,536 [INFO] com.example.SpringREST.SpringRestApplication [main] Starting SpringRestApplication using Java 21.0.4 with PID 15868 (C:\SPRING BOOT (VS CODE)\VulneraScan\target\classes started by udayg in C:\SPRING BOOT (VS CODE)\VulneraScan)
+2026-02-07 20:27:20,549 [DEBUG] com.example.SpringREST.SpringRestApplication [main] Running with Spring Boot v3.4.4, Spring v6.2.5
+2026-02-07 20:27:20,551 [INFO] com.example.SpringREST.SpringRestApplication [main] No active profile set, falling back to 1 default profile: "default"
+2026-02-07 20:27:23,952 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-07 20:27:24,083 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 115 ms. Found 7 JPA repository interfaces.
+2026-02-07 20:27:25,904 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2026-02-07 20:27:25,933 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2026-02-07 20:27:25,935 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.39]
+2026-02-07 20:27:26,049 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2026-02-07 20:27:26,050 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5393 ms
+2026-02-07 20:27:26,714 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-07 20:27:26,872 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.6.11.Final
+2026-02-07 20:27:26,950 [INFO] org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2026-02-07 20:27:27,426 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-07 20:27:27,472 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2026-02-07 20:27:27,944 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./db/db user=ADMIN
+2026-02-07 20:27:27,946 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-02-07 20:27:28,050 [INFO] org.hibernate.orm.connections.pooling [main] HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -23,123 +23,137 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-12-11 14:15:24,389 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-11 14:15:24,454 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-11 14:15:26,417 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-11 14:15:26,485 [INFO] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [main] Global AuthenticationManager configured with UserDetailsService bean with name accountservice
-2025-12-11 14:15:27,321 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint beneath base path '/actuator'
-2025-12-11 14:15:27,422 [DEBUG] org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure Or [Mvc [pattern='/api/v1/auth/token'], Mvc [pattern='/swagger-ui/**'], Mvc [pattern='/v3/api-docs/**'], Mvc [pattern='/api/v1/auth/users/add'], Mvc [pattern='/db-console/**']] with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-2025-12-11 14:15:27,489 [DEBUG] org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure Or [Mvc [pattern='/api/**']] with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, BearerTokenAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-2025-12-11 14:15:28,174 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/db'
-2025-12-11 14:15:28,400 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
-2025-12-11 14:15:28,416 [INFO] com.example.SpringREST.SpringRestApplication [main] Started SpringRestApplication in 10.739 seconds (process running for 11.935)
-2025-12-11 14:15:29,617 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(2)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-12-11 14:15:29,617 [INFO] org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(2)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
-2025-12-11 14:15:29,619 [INFO] org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(2)-127.0.0.1] Completed initialization in 2 ms
-2025-12-11 14:15:46,155 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Securing GET /swagger-ui/index.html
-2025-12-11 14:15:46,174 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
-2025-12-11 14:15:46,185 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Secured GET /swagger-ui/index.html
-2025-12-11 14:15:46,233 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Securing GET /swagger-ui/swagger-ui.css
-2025-12-11 14:15:46,231 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Securing GET /swagger-ui/index.css
-2025-12-11 14:15:46,234 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-2] Securing GET /swagger-ui/swagger-ui-bundle.js
-2025-12-11 14:15:46,234 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-3] Securing GET /swagger-ui/swagger-ui-standalone-preset.js
-2025-12-11 14:15:46,235 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
-2025-12-11 14:15:46,235 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
-2025-12-11 14:15:46,235 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
-2025-12-11 14:15:46,236 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to anonymous SecurityContext
-2025-12-11 14:15:46,236 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Secured GET /swagger-ui/swagger-ui.css
-2025-12-11 14:15:46,236 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Securing GET /swagger-ui/swagger-initializer.js
-2025-12-11 14:15:46,236 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-2] Secured GET /swagger-ui/swagger-ui-bundle.js
-2025-12-11 14:15:46,236 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-3] Secured GET /swagger-ui/swagger-ui-standalone-preset.js
-2025-12-11 14:15:46,236 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Secured GET /swagger-ui/index.css
-2025-12-11 14:15:46,237 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
-2025-12-11 14:15:46,238 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Secured GET /swagger-ui/swagger-initializer.js
-2025-12-11 14:15:46,404 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Securing GET /v3/api-docs/swagger-config
-2025-12-11 14:15:46,405 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to anonymous SecurityContext
-2025-12-11 14:15:46,405 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Securing GET /swagger-ui/favicon-32x32.png
-2025-12-11 14:15:46,405 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Secured GET /v3/api-docs/swagger-config
-2025-12-11 14:15:46,405 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to anonymous SecurityContext
-2025-12-11 14:15:46,406 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Secured GET /swagger-ui/favicon-32x32.png
-2025-12-11 14:15:46,452 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-9] Securing GET /v3/api-docs
-2025-12-11 14:15:46,453 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
-2025-12-11 14:15:46,453 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-9] Secured GET /v3/api-docs
-2025-12-11 14:15:47,091 [INFO] org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-9] Init duration for springdoc-openapi is: 623 ms
-2025-12-11 14:17:42,205 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Securing OPTIONS /api/scanfiles/my-uploads
-2025-12-11 14:17:42,207 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-2] Securing OPTIONS /api/scanfiles/my-uploads
-2025-12-11 14:17:42,229 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Securing GET /api/scanfiles/my-uploads
-2025-12-11 14:17:42,321 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-8] Failed to authenticate since the JWT was invalid
-2025-12-11 14:17:42,333 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/scanfiles/my-uploads
-2025-12-11 14:17:42,336 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-7] Failed to authenticate since the JWT was invalid
-2025-12-11 14:18:19,738 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-10] Securing GET /api/scanfiles/my-uploads
-2025-12-11 14:18:19,742 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-10] Failed to authenticate since the JWT was invalid
-2025-12-11 14:18:19,748 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Securing GET /api/scanfiles/my-uploads
-2025-12-11 14:18:19,750 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-6] Failed to authenticate since the JWT was invalid
-2025-12-11 14:19:13,466 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Securing OPTIONS /api/v1/auth/users/add
-2025-12-11 14:19:13,476 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Securing POST /api/v1/auth/users/add
-2025-12-11 14:19:13,479 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
-2025-12-11 14:19:13,481 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Secured POST /api/v1/auth/users/add
-2025-12-11 14:19:19,654 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Securing OPTIONS /api/v1/auth/token
-2025-12-11 14:19:19,660 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-2] Securing POST /api/v1/auth/token
-2025-12-11 14:19:19,662 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
-2025-12-11 14:19:19,663 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-2] Secured POST /api/v1/auth/token
-2025-12-11 14:19:20,018 [DEBUG] org.springframework.security.authentication.dao.DaoAuthenticationProvider [http-nio-8080-exec-2] Authenticated user
-2025-12-11 14:19:20,109 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Securing GET /api/scanfiles/my-uploads
-2025-12-11 14:19:20,116 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-8] Authenticated token
-2025-12-11 14:19:20,118 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@52059f0d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
-2025-12-11 14:19:20,120 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Secured GET /api/scanfiles/my-uploads
-2025-12-11 14:19:20,156 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/scanfiles/my-uploads
-2025-12-11 14:19:20,159 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-7] Authenticated token
-2025-12-11 14:19:20,160 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@52059f0d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
-2025-12-11 14:19:20,161 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Secured GET /api/scanfiles/my-uploads
-2025-12-11 14:19:41,320 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-10] Securing GET /api/scanfiles/my-uploads
-2025-12-11 14:19:41,323 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-10] Authenticated token
-2025-12-11 14:19:41,323 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@52059f0d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
-2025-12-11 14:19:41,324 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-10] Secured GET /api/scanfiles/my-uploads
-2025-12-11 14:19:41,341 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Securing GET /api/scanfiles/my-uploads
-2025-12-11 14:19:41,345 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-6] Authenticated token
-2025-12-11 14:19:41,345 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@52059f0d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
-2025-12-11 14:19:41,346 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Secured GET /api/scanfiles/my-uploads
-2025-12-11 14:20:28,871 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Securing OPTIONS /api/scanfiles/upload
-2025-12-11 14:20:28,878 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Securing POST /api/scanfiles/upload
-2025-12-11 14:20:28,884 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-5] Authenticated token
-2025-12-11 14:20:28,885 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@52059f0d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
-2025-12-11 14:20:28,886 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Secured POST /api/scanfiles/upload
-2025-12-11 14:20:28,983 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Securing GET /api/scanfiles/my-uploads
-2025-12-11 14:20:28,986 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-4] Authenticated token
-2025-12-11 14:20:28,987 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@52059f0d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
-2025-12-11 14:20:28,988 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Secured GET /api/scanfiles/my-uploads
-2025-12-11 14:20:34,678 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-2] Securing OPTIONS /api/gitleaks/scan/1
-2025-12-11 14:20:34,683 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Securing POST /api/gitleaks/scan/1
-2025-12-11 14:20:34,686 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-8] Authenticated token
-2025-12-11 14:20:34,688 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@52059f0d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
-2025-12-11 14:20:34,689 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Secured POST /api/gitleaks/scan/1
-2025-12-11 14:20:34,730 [INFO] com.example.SpringREST.controller.GitleaksController [http-nio-8080-exec-8] Created temp scan directory at: C:\Users\udayg\AppData\Local\Temp\gitleaks_scan_257376741871642179
-2025-12-11 14:20:34,730 [INFO] com.example.SpringREST.controller.GitleaksController [http-nio-8080-exec-8] Copied file to: C:\Users\udayg\AppData\Local\Temp\gitleaks_scan_257376741871642179\Test.java
-2025-12-11 14:20:34,738 [INFO] com.example.SpringREST.controller.GitleaksController [http-nio-8080-exec-8] Scanning directory: C:\Users\udayg\AppData\Local\Temp\gitleaks_scan_257376741871642179
-2025-12-11 14:20:34,738 [INFO] com.example.SpringREST.controller.GitleaksController [http-nio-8080-exec-8] GitLeaks command: C:/Users/udayg/scoop/apps/gitleaks/current/gitleaks.exe detect --source C:\Users\udayg\AppData\Local\Temp\gitleaks_scan_257376741871642179 --report-format json --no-banner --no-color --verbose --no-git
-2025-12-11 14:20:35,507 [INFO] com.example.SpringREST.controller.GitleaksController [http-nio-8080-exec-8] GitLeaks raw output: Finding:     https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
-Secret:      https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
-RuleID:      slack-webhook-url
-Entropy:     3.400964
-File:        C:/Users/udayg/AppData/Local/Temp/gitleaks_scan_257376741871642179/Test.java
-Line:        16
-Fingerprint: C:/Users/udayg/AppData/Local/Temp/gitleaks_scan_257376741871642179/Test.java:slack-webhook-url:16
-
-Finding:     ghp_abcdEFGHijklmNOPQ1234567890rstuVWXYZ
-Secret:      ghp_abcdEFGHijklmNOPQ1234567890rstuVWXYZ
-RuleID:      github-pat
-Entropy:     5.321928
-File:        C:/Users/udayg/AppData/Local/Temp/gitleaks_scan_257376741871642179/Test.java
-Line:        13
-Fingerprint: C:/Users/udayg/AppData/Local/Temp/gitleaks_scan_257376741871642179/Test.java:github-pat:13
-
-Finding:     sk_test_4eC39HqLyjWDarjtT1zdp7dc"
+2026-02-07 20:27:29,601 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-07 20:27:29,703 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-07 20:27:31,257 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-07 20:27:31,330 [INFO] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [main] Global AuthenticationManager configured with UserDetailsService bean with name accountservice
+2026-02-07 20:27:32,081 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint beneath base path '/actuator'
+2026-02-07 20:27:32,172 [DEBUG] org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure Or [Mvc [pattern='/api/v1/auth/token'], Mvc [pattern='/swagger-ui/**'], Mvc [pattern='/v3/api-docs/**'], Mvc [pattern='/api/v1/auth/users/add'], Mvc [pattern='/db-console/**']] with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-02-07 20:27:32,216 [DEBUG] org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure Or [Mvc [pattern='/api/**']] with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, BearerTokenAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-02-07 20:27:32,895 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/db'
+2026-02-07 20:27:33,094 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2026-02-07 20:27:33,109 [INFO] com.example.SpringREST.SpringRestApplication [main] Started SpringRestApplication in 13.464 seconds (process running for 14.6)
+2026-02-07 20:27:35,227 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(2)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-07 20:27:35,227 [INFO] org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(2)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2026-02-07 20:27:35,230 [INFO] org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(2)-127.0.0.1] Completed initialization in 1 ms
+2026-02-07 20:29:40,878 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Securing GET /swagger-ui/index.html
+2026-02-07 20:29:40,903 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2026-02-07 20:29:40,919 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Secured GET /swagger-ui/index.html
+2026-02-07 20:29:41,012 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-3] Securing GET /swagger-ui/swagger-ui.css
+2026-02-07 20:29:41,014 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2026-02-07 20:29:41,017 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-3] Secured GET /swagger-ui/swagger-ui.css
+2026-02-07 20:29:41,026 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Securing GET /swagger-ui/swagger-ui-bundle.js
+2026-02-07 20:29:41,026 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Securing GET /swagger-ui/swagger-initializer.js
+2026-02-07 20:29:41,026 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2026-02-07 20:29:41,026 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-2] Securing GET /swagger-ui/index.css
+2026-02-07 20:29:41,028 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2026-02-07 20:29:41,030 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2026-02-07 20:29:41,031 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Secured GET /swagger-ui/swagger-ui-bundle.js
+2026-02-07 20:29:41,032 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2026-02-07 20:29:41,034 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2026-02-07 20:29:41,034 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-2] Secured GET /swagger-ui/index.css
+2026-02-07 20:29:41,033 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2026-02-07 20:29:41,040 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Secured GET /swagger-ui/swagger-initializer.js
+2026-02-07 20:29:41,277 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Securing GET /v3/api-docs/swagger-config
+2026-02-07 20:29:41,280 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2026-02-07 20:29:41,280 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-9] Securing GET /swagger-ui/favicon-32x32.png
+2026-02-07 20:29:41,281 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Secured GET /v3/api-docs/swagger-config
+2026-02-07 20:29:41,282 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2026-02-07 20:29:41,283 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-9] Secured GET /swagger-ui/favicon-32x32.png
+2026-02-07 20:29:41,332 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Securing GET /v3/api-docs
+2026-02-07 20:29:41,333 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2026-02-07 20:29:41,333 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Secured GET /v3/api-docs
+2026-02-07 20:29:42,109 [INFO] org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-6] Init duration for springdoc-openapi is: 757 ms
+2026-02-07 20:33:29,619 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Securing GET /db-console
+2026-02-07 20:33:29,625 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2026-02-07 20:33:29,628 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Secured GET /db-console
+2026-02-07 20:33:29,920 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2026-02-07 20:33:29,931 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-10] No endpoint GET /favicon.ico.
+2026-02-07 20:33:52,113 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2026-02-07 20:33:52,119 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-8] No endpoint GET /favicon.ico.
+2026-02-07 20:35:17,034 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-9] Securing OPTIONS /api/v1/auth/users/add
+2026-02-07 20:35:17,072 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-2] Securing POST /api/v1/auth/users/add
+2026-02-07 20:35:17,080 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2026-02-07 20:35:17,081 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-2] Secured POST /api/v1/auth/users/add
+2026-02-07 20:35:25,032 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Securing OPTIONS /api/v1/auth/token
+2026-02-07 20:35:25,039 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Securing POST /api/v1/auth/token
+2026-02-07 20:35:25,041 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2026-02-07 20:35:25,044 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Secured POST /api/v1/auth/token
+2026-02-07 20:35:25,586 [DEBUG] org.springframework.security.authentication.dao.DaoAuthenticationProvider [http-nio-8080-exec-8] Authenticated user
+2026-02-07 20:35:25,888 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Securing OPTIONS /api/scanfiles/my-uploads
+2026-02-07 20:35:25,888 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-10] Securing OPTIONS /api/scanfiles/my-uploads
+2026-02-07 20:35:25,903 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:35:25,933 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-1] Authenticated token
+2026-02-07 20:35:25,943 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:35:25,950 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:35:26,006 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:35:26,015 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-5] Authenticated token
+2026-02-07 20:35:26,017 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:35:26,019 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:36:13,657 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-9] Securing OPTIONS /api/v1/auth/profile
+2026-02-07 20:36:13,657 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-2] Securing OPTIONS /api/v1/auth/profile
+2026-02-07 20:36:13,657 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:36:13,662 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Securing GET /api/v1/auth/profile
+2026-02-07 20:36:13,664 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-8] Authenticated token
+2026-02-07 20:36:13,665 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:36:13,716 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-4] Authenticated token
+2026-02-07 20:36:13,739 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Secured GET /api/v1/auth/profile
+2026-02-07 20:36:15,898 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:36:15,900 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:36:15,940 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:36:15,944 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-7] Authenticated token
+2026-02-07 20:36:15,945 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:36:15,944 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-10] Securing OPTIONS /api/gitleaks/findings
+2026-02-07 20:36:15,947 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:36:15,949 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/v1/auth/profile
+2026-02-07 20:36:15,950 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/gitleaks/findings
+2026-02-07 20:36:15,953 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-1] Authenticated token
+2026-02-07 20:36:15,954 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:36:15,955 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-5] Authenticated token
+2026-02-07 20:36:15,956 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:36:15,957 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Secured GET /api/v1/auth/profile
+2026-02-07 20:36:15,958 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Secured GET /api/gitleaks/findings
+2026-02-07 20:36:15,959 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-5] No mapping for GET /api/gitleaks/findings
+2026-02-07 20:36:15,960 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-5] No endpoint GET /api/gitleaks/findings.
+2026-02-07 20:36:16,006 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/gitleaks/findings
+2026-02-07 20:36:16,009 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-3] Authenticated token
+2026-02-07 20:36:16,010 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:36:16,014 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-3] Secured GET /api/gitleaks/findings
+2026-02-07 20:36:16,018 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-3] No mapping for GET /api/gitleaks/findings
+2026-02-07 20:36:16,025 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-3] No endpoint GET /api/gitleaks/findings.
+2026-02-07 20:36:33,626 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:36:33,629 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-6] Authenticated token
+2026-02-07 20:36:33,629 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:36:33,630 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:36:33,637 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-9] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:36:33,640 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-9] Authenticated token
+2026-02-07 20:36:33,641 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:36:33,641 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-9] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:37:41,031 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Securing OPTIONS /api/scanfiles/upload
+2026-02-07 20:37:41,039 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Securing POST /api/scanfiles/upload
+2026-02-07 20:37:41,046 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-7] Authenticated token
+2026-02-07 20:37:41,047 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:37:41,049 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Secured POST /api/scanfiles/upload
+2026-02-07 20:37:41,149 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:37:41,150 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-1] Authenticated token
+2026-02-07 20:37:41,151 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:37:41,151 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:38:00,117 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Securing OPTIONS /api/gitleaks/scan/1
+2026-02-07 20:38:00,121 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-3] Securing POST /api/gitleaks/scan/1
+2026-02-07 20:38:00,123 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-3] Authenticated token
+2026-02-07 20:38:00,124 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:38:00,125 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-3] Secured POST /api/gitleaks/scan/1
+2026-02-07 20:38:00,165 [INFO] com.example.SpringREST.controller.GitleaksController [http-nio-8080-exec-3] Created temp scan directory at: C:\Users\udayg\AppData\Local\Temp\gitleaks_scan_13796847883020258791
+2026-02-07 20:38:00,165 [INFO] com.example.SpringREST.controller.GitleaksController [http-nio-8080-exec-3] Copied file to: C:\Users\udayg\AppData\Local\Temp\gitleaks_scan_13796847883020258791\Test.java
+2026-02-07 20:38:00,174 [INFO] com.example.SpringREST.controller.GitleaksController [http-nio-8080-exec-3] Scanning directory: C:\Users\udayg\AppData\Local\Temp\gitleaks_scan_13796847883020258791
+2026-02-07 20:38:00,175 [INFO] com.example.SpringREST.controller.GitleaksController [http-nio-8080-exec-3] GitLeaks command: C:/Users/udayg/scoop/apps/gitleaks/current/gitleaks.exe detect --source C:\Users\udayg\AppData\Local\Temp\gitleaks_scan_13796847883020258791 --report-format json --no-banner --no-color --verbose --no-git
+2026-02-07 20:38:00,707 [INFO] com.example.SpringREST.controller.GitleaksController [http-nio-8080-exec-3] GitLeaks raw output: Finding:     sk_test_4eC39HqLyjWDarjtT1zdp7dc"
 Secret:      sk_test_4eC39HqLyjWDarjtT1zdp7dc
 RuleID:      stripe-access-token
 Entropy:     4.538910
-File:        C:/Users/udayg/AppData/Local/Temp/gitleaks_scan_257376741871642179/Test.java
+File:        C:/Users/udayg/AppData/Local/Temp/gitleaks_scan_13796847883020258791/Test.java
 Line:        26
-Fingerprint: C:/Users/udayg/AppData/Local/Temp/gitleaks_scan_257376741871642179/Test.java:stripe-access-token:26
+Fingerprint: C:/Users/udayg/AppData/Local/Temp/gitleaks_scan_13796847883020258791/Test.java:stripe-access-token:26
 
 Finding:     -----BEGIN PRIVATE KEY-----
 MIIBVgIBADANBgkqhkiG9w0BAQEFAASCAT8wggE7AgEAAkEAu3Vt2XNq7k0xNqLs
@@ -153,91 +167,280 @@ lSl1lCbk4N3cSAg9H8qPu9YFh3mbc4GcRnLtPf+h3opai4x8U8x77vQEXAMPLEKEY
 -----END PRIVATE KEY-----
 RuleID:      private-key
 Entropy:     5.485718
-File:        C:/Users/udayg/AppData/Local/Temp/gitleaks_scan_257376741871642179/Test.java
+File:        C:/Users/udayg/AppData/Local/Temp/gitleaks_scan_13796847883020258791/Test.java
 Line:        19
-Fingerprint: C:/Users/udayg/AppData/Local/Temp/gitleaks_scan_257376741871642179/Test.java:private-key:19
-2025-12-11 14:20:35,678 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-9] Securing GET /api/scanfiles/my-uploads
-2025-12-11 14:20:35,679 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Securing OPTIONS /api/gitleaks/findings/1
-2025-12-11 14:20:35,679 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-3] Securing OPTIONS /api/gitleaks/findings/1
-2025-12-11 14:20:35,681 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-9] Authenticated token
-2025-12-11 14:20:35,682 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@52059f0d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
-2025-12-11 14:20:35,685 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-9] Secured GET /api/scanfiles/my-uploads
-2025-12-11 14:20:35,686 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-10] Securing GET /api/gitleaks/findings/1
-2025-12-11 14:20:35,689 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-10] Authenticated token
-2025-12-11 14:20:35,690 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@52059f0d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
-2025-12-11 14:20:35,693 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-10] Secured GET /api/gitleaks/findings/1
-2025-12-11 14:20:35,695 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-10] No mapping for GET /api/gitleaks/findings/1
-2025-12-11 14:20:35,710 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Securing GET /api/scanfiles/my-uploads
-2025-12-11 14:20:35,715 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-10] No endpoint GET /api/gitleaks/findings/1.
-2025-12-11 14:20:35,716 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-6] Authenticated token
-2025-12-11 14:20:35,718 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@52059f0d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
-2025-12-11 14:20:35,721 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Secured GET /api/scanfiles/my-uploads
-2025-12-11 14:20:35,751 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/gitleaks/findings/1
-2025-12-11 14:20:35,755 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Securing OPTIONS /api/trivy/findings/1
-2025-12-11 14:20:35,755 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-1] Authenticated token
-2025-12-11 14:20:35,756 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@52059f0d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
-2025-12-11 14:20:35,756 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Secured GET /api/gitleaks/findings/1
-2025-12-11 14:20:35,758 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-1] No mapping for GET /api/gitleaks/findings/1
-2025-12-11 14:20:35,760 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-1] No endpoint GET /api/gitleaks/findings/1.
-2025-12-11 14:20:35,762 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Securing GET /api/trivy/findings/1
-2025-12-11 14:20:35,764 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-4] Authenticated token
-2025-12-11 14:20:35,765 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@52059f0d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
-2025-12-11 14:20:35,767 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Secured GET /api/trivy/findings/1
-2025-12-11 14:20:35,768 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-4] No mapping for GET /api/trivy/findings/1
-2025-12-11 14:20:35,770 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-4] No endpoint GET /api/trivy/findings/1.
-2025-12-11 14:20:35,781 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Securing OPTIONS /api/semgrep/findings/1
-2025-12-11 14:20:35,781 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-2] Securing GET /api/trivy/findings/1
-2025-12-11 14:20:35,785 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-2] Authenticated token
-2025-12-11 14:20:35,785 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@52059f0d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
-2025-12-11 14:20:35,788 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/semgrep/findings/1
-2025-12-11 14:20:35,788 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-2] Secured GET /api/trivy/findings/1
-2025-12-11 14:20:35,790 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-2] No mapping for GET /api/trivy/findings/1
-2025-12-11 14:20:35,791 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-2] No endpoint GET /api/trivy/findings/1.
-2025-12-11 14:20:35,792 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-7] Authenticated token
-2025-12-11 14:20:35,792 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@52059f0d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
-2025-12-11 14:20:35,796 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Secured GET /api/semgrep/findings/1
-2025-12-11 14:20:35,799 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-7] No mapping for GET /api/semgrep/findings/1
-2025-12-11 14:20:35,801 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-7] No endpoint GET /api/semgrep/findings/1.
-2025-12-11 14:20:35,812 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/semgrep/findings/1
-2025-12-11 14:20:35,814 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-9] Securing OPTIONS /api/dependency-check/findings/1
-2025-12-11 14:20:35,816 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-3] Authenticated token
-2025-12-11 14:20:35,817 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@52059f0d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
-2025-12-11 14:20:35,819 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-3] Secured GET /api/semgrep/findings/1
-2025-12-11 14:20:35,820 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-3] No mapping for GET /api/semgrep/findings/1
-2025-12-11 14:20:35,820 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Securing GET /api/dependency-check/findings/1
-2025-12-11 14:20:35,821 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-3] No endpoint GET /api/semgrep/findings/1.
-2025-12-11 14:20:35,822 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-6] Authenticated token
-2025-12-11 14:20:35,824 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@52059f0d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
-2025-12-11 14:20:35,825 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Secured GET /api/dependency-check/findings/1
-2025-12-11 14:20:35,826 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-6] No mapping for GET /api/dependency-check/findings/1
-2025-12-11 14:20:35,826 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-6] No endpoint GET /api/dependency-check/findings/1.
-2025-12-11 14:20:35,832 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-10] Securing GET /api/dependency-check/findings/1
-2025-12-11 14:20:35,835 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-10] Authenticated token
-2025-12-11 14:20:35,835 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@52059f0d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
-2025-12-11 14:20:35,837 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-10] Secured GET /api/dependency-check/findings/1
-2025-12-11 14:20:35,838 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-10] No mapping for GET /api/dependency-check/findings/1
-2025-12-11 14:20:35,839 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-10] No endpoint GET /api/dependency-check/findings/1.
-2025-12-11 14:20:51,450 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/gitleaks/findings/1
-2025-12-11 14:20:51,453 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-5] Authenticated token
-2025-12-11 14:20:51,454 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@52059f0d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
-2025-12-11 14:20:51,454 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Secured GET /api/gitleaks/findings/1
-2025-12-11 14:20:51,456 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-5] No mapping for GET /api/gitleaks/findings/1
-2025-12-11 14:20:51,456 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-5] No endpoint GET /api/gitleaks/findings/1.
-2025-12-11 14:20:51,465 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/trivy/findings/1
-2025-12-11 14:20:51,468 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-1] Authenticated token
-2025-12-11 14:20:51,469 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@52059f0d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
-2025-12-11 14:20:51,470 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Secured GET /api/trivy/findings/1
-2025-12-11 14:20:51,471 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-1] No mapping for GET /api/trivy/findings/1
-2025-12-11 14:20:51,471 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-1] No endpoint GET /api/trivy/findings/1.
-2025-12-11 14:20:51,478 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Securing GET /api/semgrep/findings/1
-2025-12-11 14:20:51,481 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-4] Authenticated token
-2025-12-11 14:20:51,482 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@52059f0d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
-2025-12-11 14:20:51,483 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Secured GET /api/semgrep/findings/1
-2025-12-11 14:20:51,484 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-4] No mapping for GET /api/semgrep/findings/1
-2025-12-11 14:20:51,485 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-4] No endpoint GET /api/semgrep/findings/1.
-2025-12-11 14:20:51,496 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Securing GET /api/dependency-check/findings/1
-2025-12-11 14:20:51,498 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-8] Authenticated token
-2025-12-11 14:20:51,499 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@52059f0d, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
-2025-12-11 14:20:51,500 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Secured GET /api/dependency-check/findings/1
-2025-12-11 14:20:51,500 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-8] No mapping for GET /api/dependency-check/findings/1
-2025-12-11 14:20:51,501 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-8] No endpoint GET /api/dependency-check/findings/1.
+Fingerprint: C:/Users/udayg/AppData/Local/Temp/gitleaks_scan_13796847883020258791/Test.java:private-key:19
+
+Finding:     ghp_abcdEFGHijklmNOPQ1234567890rstuVWXYZ
+Secret:      ghp_abcdEFGHijklmNOPQ1234567890rstuVWXYZ
+RuleID:      github-pat
+Entropy:     5.321928
+File:        C:/Users/udayg/AppData/Local/Temp/gitleaks_scan_13796847883020258791/Test.java
+Line:        13
+Fingerprint: C:/Users/udayg/AppData/Local/Temp/gitleaks_scan_13796847883020258791/Test.java:github-pat:13
+
+Finding:     https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
+Secret:      https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
+RuleID:      slack-webhook-url
+Entropy:     3.400964
+File:        C:/Users/udayg/AppData/Local/Temp/gitleaks_scan_13796847883020258791/Test.java
+Line:        16
+Fingerprint: C:/Users/udayg/AppData/Local/Temp/gitleaks_scan_13796847883020258791/Test.java:slack-webhook-url:16
+2026-02-07 20:38:00,869 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-9] Securing OPTIONS /api/gitleaks/findings/1
+2026-02-07 20:38:00,869 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-2] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:38:00,869 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Securing OPTIONS /api/gitleaks/findings/1
+2026-02-07 20:38:00,872 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-2] Authenticated token
+2026-02-07 20:38:00,873 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:38:00,875 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-2] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:38:00,875 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-10] Securing GET /api/gitleaks/findings/1
+2026-02-07 20:38:00,876 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-10] Authenticated token
+2026-02-07 20:38:00,877 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:38:00,878 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-10] Secured GET /api/gitleaks/findings/1
+2026-02-07 20:38:00,879 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-10] No mapping for GET /api/gitleaks/findings/1
+2026-02-07 20:38:00,880 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-10] No endpoint GET /api/gitleaks/findings/1.
+2026-02-07 20:38:00,886 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:38:00,886 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Securing GET /api/gitleaks/findings/1
+2026-02-07 20:38:00,889 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-8] Authenticated token
+2026-02-07 20:38:00,889 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-4] Authenticated token
+2026-02-07 20:38:00,889 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:38:00,889 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:38:00,891 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Secured GET /api/gitleaks/findings/1
+2026-02-07 20:38:00,891 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:38:00,892 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-8] No mapping for GET /api/gitleaks/findings/1
+2026-02-07 20:38:00,893 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-8] No endpoint GET /api/gitleaks/findings/1.
+2026-02-07 20:38:00,903 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Securing OPTIONS /api/trivy/findings/1
+2026-02-07 20:38:00,918 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Securing OPTIONS /api/trivy/findings/1
+2026-02-07 20:38:00,921 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/trivy/findings/1
+2026-02-07 20:38:00,940 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-5] Authenticated token
+2026-02-07 20:38:00,943 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:38:00,944 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Secured GET /api/trivy/findings/1
+2026-02-07 20:38:00,947 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-5] No mapping for GET /api/trivy/findings/1
+2026-02-07 20:38:00,948 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-5] No endpoint GET /api/trivy/findings/1.
+2026-02-07 20:38:00,960 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/trivy/findings/1
+2026-02-07 20:38:00,961 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Securing OPTIONS /api/semgrep/findings/1
+2026-02-07 20:38:00,963 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-3] Authenticated token
+2026-02-07 20:38:00,964 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:38:00,965 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-3] Secured GET /api/trivy/findings/1
+2026-02-07 20:38:00,966 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-3] No mapping for GET /api/trivy/findings/1
+2026-02-07 20:38:00,967 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-3] No endpoint GET /api/trivy/findings/1.
+2026-02-07 20:38:00,967 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-9] Securing GET /api/semgrep/findings/1
+2026-02-07 20:38:00,972 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-9] Authenticated token
+2026-02-07 20:38:00,973 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:38:00,977 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-9] Secured GET /api/semgrep/findings/1
+2026-02-07 20:38:00,979 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-9] No mapping for GET /api/semgrep/findings/1
+2026-02-07 20:38:00,980 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-9] No endpoint GET /api/semgrep/findings/1.
+2026-02-07 20:38:00,991 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-10] Securing GET /api/semgrep/findings/1
+2026-02-07 20:38:00,994 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-10] Authenticated token
+2026-02-07 20:38:00,994 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:38:00,995 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-2] Securing OPTIONS /api/dependency-check/findings/1
+2026-02-07 20:38:00,996 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-10] Secured GET /api/semgrep/findings/1
+2026-02-07 20:38:00,998 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-10] No mapping for GET /api/semgrep/findings/1
+2026-02-07 20:38:00,998 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-10] No endpoint GET /api/semgrep/findings/1.
+2026-02-07 20:38:01,001 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Securing GET /api/dependency-check/findings/1
+2026-02-07 20:38:01,005 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-8] Authenticated token
+2026-02-07 20:38:01,005 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:38:01,006 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Secured GET /api/dependency-check/findings/1
+2026-02-07 20:38:01,007 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-8] No mapping for GET /api/dependency-check/findings/1
+2026-02-07 20:38:01,007 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-8] No endpoint GET /api/dependency-check/findings/1.
+2026-02-07 20:38:01,012 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/dependency-check/findings/1
+2026-02-07 20:38:01,017 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-1] Authenticated token
+2026-02-07 20:38:01,018 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:38:01,019 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Secured GET /api/dependency-check/findings/1
+2026-02-07 20:38:01,019 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-1] No mapping for GET /api/dependency-check/findings/1
+2026-02-07 20:38:01,020 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-1] No endpoint GET /api/dependency-check/findings/1.
+2026-02-07 20:38:17,881 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/v1/auth/profile
+2026-02-07 20:38:17,881 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:38:17,885 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-4] Authenticated token
+2026-02-07 20:38:17,885 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-7] Authenticated token
+2026-02-07 20:38:17,885 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:38:17,885 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:38:17,886 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Secured GET /api/v1/auth/profile
+2026-02-07 20:38:17,886 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:38:17,892 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/v1/auth/profile
+2026-02-07 20:38:17,894 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-5] Authenticated token
+2026-02-07 20:38:17,894 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:38:17,894 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:38:17,895 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Secured GET /api/v1/auth/profile
+2026-02-07 20:38:17,895 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-6] Authenticated token
+2026-02-07 20:38:17,896 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:38:17,897 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:38:17,910 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/gitleaks/findings
+2026-02-07 20:38:17,912 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-3] Authenticated token
+2026-02-07 20:38:17,912 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:38:17,913 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-3] Secured GET /api/gitleaks/findings
+2026-02-07 20:38:17,913 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-3] No mapping for GET /api/gitleaks/findings
+2026-02-07 20:38:17,914 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-3] No endpoint GET /api/gitleaks/findings.
+2026-02-07 20:38:17,919 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-9] Securing GET /api/gitleaks/findings
+2026-02-07 20:38:17,922 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-9] Authenticated token
+2026-02-07 20:38:17,922 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:38:17,923 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-9] Secured GET /api/gitleaks/findings
+2026-02-07 20:38:17,924 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-9] No mapping for GET /api/gitleaks/findings
+2026-02-07 20:38:17,924 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-9] No endpoint GET /api/gitleaks/findings.
+2026-02-07 20:41:12,831 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:41:12,833 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-7] Authenticated token
+2026-02-07 20:41:12,833 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:12,834 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:41:12,842 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Securing GET /api/gitleaks/findings
+2026-02-07 20:41:12,845 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-4] Authenticated token
+2026-02-07 20:41:12,845 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:12,846 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Secured GET /api/gitleaks/findings
+2026-02-07 20:41:12,846 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-4] No mapping for GET /api/gitleaks/findings
+2026-02-07 20:41:12,846 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-4] No endpoint GET /api/gitleaks/findings.
+2026-02-07 20:41:14,000 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:41:14,003 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-5] Authenticated token
+2026-02-07 20:41:14,003 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:14,004 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:41:14,012 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Securing GET /api/gitleaks/findings
+2026-02-07 20:41:14,013 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-6] Authenticated token
+2026-02-07 20:41:14,014 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:14,014 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Secured GET /api/gitleaks/findings
+2026-02-07 20:41:14,014 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-6] No mapping for GET /api/gitleaks/findings
+2026-02-07 20:41:14,014 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-6] No endpoint GET /api/gitleaks/findings.
+2026-02-07 20:41:14,763 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:41:14,764 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-3] Authenticated token
+2026-02-07 20:41:14,774 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:14,775 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-3] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:41:14,785 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-9] Securing GET /api/gitleaks/findings
+2026-02-07 20:41:14,788 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-9] Authenticated token
+2026-02-07 20:41:14,788 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:14,789 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-9] Secured GET /api/gitleaks/findings
+2026-02-07 20:41:14,789 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-9] No mapping for GET /api/gitleaks/findings
+2026-02-07 20:41:14,789 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-9] No endpoint GET /api/gitleaks/findings.
+2026-02-07 20:41:15,351 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-2] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:41:15,353 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-2] Authenticated token
+2026-02-07 20:41:15,353 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:15,354 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-2] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:41:15,361 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-10] Securing GET /api/gitleaks/findings
+2026-02-07 20:41:15,363 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-10] Authenticated token
+2026-02-07 20:41:15,363 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:15,363 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-10] Secured GET /api/gitleaks/findings
+2026-02-07 20:41:15,365 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-10] No mapping for GET /api/gitleaks/findings
+2026-02-07 20:41:15,365 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-10] No endpoint GET /api/gitleaks/findings.
+2026-02-07 20:41:15,677 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:41:15,679 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-8] Authenticated token
+2026-02-07 20:41:15,679 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:15,680 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:41:15,689 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/gitleaks/findings
+2026-02-07 20:41:15,692 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-1] Authenticated token
+2026-02-07 20:41:15,692 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:15,692 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Secured GET /api/gitleaks/findings
+2026-02-07 20:41:15,692 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-1] No mapping for GET /api/gitleaks/findings
+2026-02-07 20:41:15,693 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-1] No endpoint GET /api/gitleaks/findings.
+2026-02-07 20:41:16,053 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:41:16,055 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-7] Authenticated token
+2026-02-07 20:41:16,055 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:16,055 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:41:16,065 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Securing GET /api/gitleaks/findings
+2026-02-07 20:41:16,067 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-4] Authenticated token
+2026-02-07 20:41:16,067 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:16,068 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Secured GET /api/gitleaks/findings
+2026-02-07 20:41:16,068 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-4] No mapping for GET /api/gitleaks/findings
+2026-02-07 20:41:16,069 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-4] No endpoint GET /api/gitleaks/findings.
+2026-02-07 20:41:16,337 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:41:16,338 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-5] Authenticated token
+2026-02-07 20:41:16,338 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:16,339 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:41:16,345 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Securing GET /api/gitleaks/findings
+2026-02-07 20:41:16,346 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-6] Authenticated token
+2026-02-07 20:41:16,346 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:16,348 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Secured GET /api/gitleaks/findings
+2026-02-07 20:41:16,348 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-6] No mapping for GET /api/gitleaks/findings
+2026-02-07 20:41:16,348 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-6] No endpoint GET /api/gitleaks/findings.
+2026-02-07 20:41:16,585 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:41:16,587 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-3] Authenticated token
+2026-02-07 20:41:16,587 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:16,588 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-3] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:41:16,598 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-9] Securing GET /api/gitleaks/findings
+2026-02-07 20:41:16,600 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-9] Authenticated token
+2026-02-07 20:41:16,600 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:16,600 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-9] Secured GET /api/gitleaks/findings
+2026-02-07 20:41:16,601 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-9] No mapping for GET /api/gitleaks/findings
+2026-02-07 20:41:16,601 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-9] No endpoint GET /api/gitleaks/findings.
+2026-02-07 20:41:16,843 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-2] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:41:16,845 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-2] Authenticated token
+2026-02-07 20:41:16,845 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:16,846 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-2] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:41:16,858 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-10] Securing GET /api/gitleaks/findings
+2026-02-07 20:41:16,864 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-10] Authenticated token
+2026-02-07 20:41:16,864 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:16,867 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-10] Secured GET /api/gitleaks/findings
+2026-02-07 20:41:16,868 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-10] No mapping for GET /api/gitleaks/findings
+2026-02-07 20:41:16,868 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-10] No endpoint GET /api/gitleaks/findings.
+2026-02-07 20:41:17,063 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:41:17,065 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-8] Authenticated token
+2026-02-07 20:41:17,065 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:17,065 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:41:17,074 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/gitleaks/findings
+2026-02-07 20:41:17,075 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-1] Authenticated token
+2026-02-07 20:41:17,076 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:17,076 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Secured GET /api/gitleaks/findings
+2026-02-07 20:41:17,077 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-1] No mapping for GET /api/gitleaks/findings
+2026-02-07 20:41:17,078 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-1] No endpoint GET /api/gitleaks/findings.
+2026-02-07 20:41:17,290 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:41:17,292 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-7] Authenticated token
+2026-02-07 20:41:17,292 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:17,293 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:41:17,301 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Securing GET /api/gitleaks/findings
+2026-02-07 20:41:17,302 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-4] Authenticated token
+2026-02-07 20:41:17,302 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:17,303 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Secured GET /api/gitleaks/findings
+2026-02-07 20:41:17,303 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-4] No mapping for GET /api/gitleaks/findings
+2026-02-07 20:41:17,303 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-4] No endpoint GET /api/gitleaks/findings.
+2026-02-07 20:41:17,487 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:41:17,489 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-5] Authenticated token
+2026-02-07 20:41:17,489 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:17,489 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:41:17,499 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Securing GET /api/gitleaks/findings
+2026-02-07 20:41:17,500 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-6] Authenticated token
+2026-02-07 20:41:17,501 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:17,501 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Secured GET /api/gitleaks/findings
+2026-02-07 20:41:17,502 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-6] No mapping for GET /api/gitleaks/findings
+2026-02-07 20:41:17,502 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-6] No endpoint GET /api/gitleaks/findings.
+2026-02-07 20:41:17,655 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:41:17,658 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-3] Authenticated token
+2026-02-07 20:41:17,658 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:17,659 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-3] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:41:17,666 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-9] Securing GET /api/gitleaks/findings
+2026-02-07 20:41:17,669 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-9] Authenticated token
+2026-02-07 20:41:17,669 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:17,669 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-9] Secured GET /api/gitleaks/findings
+2026-02-07 20:41:17,669 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-9] No mapping for GET /api/gitleaks/findings
+2026-02-07 20:41:17,670 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-9] No endpoint GET /api/gitleaks/findings.
+2026-02-07 20:41:17,824 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-2] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:41:17,825 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-2] Authenticated token
+2026-02-07 20:41:17,826 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:17,826 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-2] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:41:17,834 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-10] Securing GET /api/gitleaks/findings
+2026-02-07 20:41:17,836 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-10] Authenticated token
+2026-02-07 20:41:17,836 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:17,837 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-10] Secured GET /api/gitleaks/findings
+2026-02-07 20:41:17,837 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-10] No mapping for GET /api/gitleaks/findings
+2026-02-07 20:41:17,837 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-10] No endpoint GET /api/gitleaks/findings.
+2026-02-07 20:41:18,001 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:41:18,003 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-8] Authenticated token
+2026-02-07 20:41:18,003 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:18,004 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-8] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:41:18,011 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/gitleaks/findings
+2026-02-07 20:41:18,014 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-1] Authenticated token
+2026-02-07 20:41:18,014 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:18,015 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-1] Secured GET /api/gitleaks/findings
+2026-02-07 20:41:18,015 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-1] No mapping for GET /api/gitleaks/findings
+2026-02-07 20:41:18,015 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-1] No endpoint GET /api/gitleaks/findings.
+2026-02-07 20:41:18,221 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:41:18,223 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-7] Authenticated token
+2026-02-07 20:41:18,223 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-7] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:18,224 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-7] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:41:18,232 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Securing GET /api/gitleaks/findings
+2026-02-07 20:41:18,234 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-4] Authenticated token
+2026-02-07 20:41:18,235 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:18,235 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-4] Secured GET /api/gitleaks/findings
+2026-02-07 20:41:18,235 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-4] No mapping for GET /api/gitleaks/findings
+2026-02-07 20:41:18,236 [WARN] org.springframework.web.servlet.PageNotFound [http-nio-8080-exec-4] No endpoint GET /api/gitleaks/findings.
+2026-02-07 20:41:20,711 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:41:20,712 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-5] Authenticated token
+2026-02-07 20:41:20,714 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:20,714 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-5] Secured GET /api/scanfiles/my-uploads
+2026-02-07 20:41:20,723 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Securing GET /api/scanfiles/my-uploads
+2026-02-07 20:41:20,725 [DEBUG] org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationProvider [http-nio-8080-exec-6] Authenticated token
+2026-02-07 20:41:20,726 [DEBUG] org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@3365533c, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_USER]]
+2026-02-07 20:41:20,726 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8080-exec-6] Secured GET /api/scanfiles/my-uploads
