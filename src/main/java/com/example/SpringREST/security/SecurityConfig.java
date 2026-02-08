@@ -66,7 +66,8 @@ public class SecurityConfig {
         cfg.setAllowedOrigins(java.util.Arrays.asList(
             "http://localhost:5173",
             "http://localhost:3000",
-            "http://127.0.0.1:5173"
+            "http://127.0.0.1:5173",
+            "https://vulnerascan-frontend.vercel.app"
         ));
         cfg.setAllowedMethods(java.util.Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
         cfg.setAllowedHeaders(java.util.Arrays.asList("*"));
@@ -82,6 +83,7 @@ public class SecurityConfig {
     @Order(1)
     public SecurityFilterChain publicEndpoints(HttpSecurity http) throws Exception {
         http
+            .cors(cors -> cors.configurationSource(corsConfigurationSource()))
             .securityMatcher("/api/v1/auth/token", "/swagger-ui/**", "/v3/api-docs/**", "/api/v1/auth/users/add","/db-console/**")
             .csrf(csrf -> csrf.disable())
             .sessionManagement(sess -> sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
