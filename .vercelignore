@@ -1,0 +1,12 @@
+# Ignore backend files from Vercel
+src/
+pom.xml
+mvnw*
+target/
+db/
+reports/
+uploaded_code_files/
+Dockerfile
+.git
+.github
+.gitignore
