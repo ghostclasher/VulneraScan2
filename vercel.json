@@ -1,8 +1,0 @@
-{
-  "buildCommand": "cd vulnerascan-frontend && npm install && npm run build",
-  "outputDirectory": "vulnerascan-frontend/dist",
-  "framework": "vite",
-  "env": {
-    "VITE_API_BASE_URL": "@vite_api_base_url"
-  }
-}

@@ -25,6 +25,8 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
+import java.util.Arrays;
+
 @Configuration
 public class SecurityConfig {
 
@@ -43,7 +45,10 @@ public class SecurityConfig {
     }
 
     @Bean
-    public AuthenticationManager authenticationManager(UserDetailsService userDetailsService, PasswordEncoder encoder) {
+    public AuthenticationManager authenticationManager(
+            UserDetailsService userDetailsService,
+            PasswordEncoder encoder) {
+
         DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
         provider.setUserDetailsService(userDetailsService);
         provider.setPasswordEncoder(encoder);
@@ -60,60 +65,93 @@ public class SecurityConfig {
         return new NimbusJwtEncoder(jwks);
     }
 
+    // ===================== GLOBAL CORS CONFIG =====================
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration cfg = new CorsConfiguration();
-        cfg.setAllowedOrigins(java.util.Arrays.asList(
-            "http://localhost:5173",
-            "http://localhost:3000",
-            "http://127.0.0.1:5173",
-            "https://vulnerascan-frontend.vercel.app"
+
+        cfg.setAllowedOrigins(Arrays.asList(
+                "http://localhost:5173",
+                "http://localhost:3000",
+                "http://127.0.0.1:5173",
+                "https://vulnerascan-frontend-ls3b.vercel.app"
         ));
-        cfg.setAllowedMethods(java.util.Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
-        cfg.setAllowedHeaders(java.util.Arrays.asList("*"));
+
+        cfg.setAllowedMethods(Arrays.asList(
+                "GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"
+        ));
+
+        cfg.setAllowedHeaders(Arrays.asList(
+                "Authorization",
+                "Content-Type",
+                "Accept",
+                "Origin"
+        ));
+
         cfg.setAllowCredentials(true);
         cfg.setMaxAge(3600L);
-        
-        UrlBasedCorsConfigurationSource src = new UrlBasedCorsConfigurationSource();
+
+        UrlBasedCorsConfigurationSource src =
+                new UrlBasedCorsConfigurationSource();
         src.registerCorsConfiguration("/**", cfg);
+
         return src;
     }
 
+    // ===================== PUBLIC ENDPOINTS =====================
     @Bean
     @Order(1)
-    public SecurityFilterChain publicEndpoints(HttpSecurity http) throws Exception {
+    public SecurityFilterChain publicEndpoints(HttpSecurity http)
+            throws Exception {
+
         http
+            .securityMatcher(
+                "/api/v1/auth/token",
+                "/swagger-ui/**",
+                "/v3/api-docs/**",
+                "/api/v1/auth/users/add",
+                "/db-console/**"
+            )
             .cors(cors -> cors.configurationSource(corsConfigurationSource()))
-            .securityMatcher("/api/v1/auth/token", "/swagger-ui/**", "/v3/api-docs/**", "/api/v1/auth/users/add","/db-console/**")
             .csrf(csrf -> csrf.disable())
-            .sessionManagement(sess -> sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-            .authorizeHttpRequests(auth -> auth
-            .requestMatchers("/**").permitAll()
-            .anyRequest().permitAll());
+            .sessionManagement(sess ->
+                sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+            .authorizeHttpRequests(auth ->
+                auth.anyRequest().permitAll()
+            );
+
         return http.build();
     }
 
+    // ===================== SECURED ENDPOINTS =====================
     @Bean
     @Order(2)
-    public SecurityFilterChain securedEndpoints(HttpSecurity http) throws Exception {
+    public SecurityFilterChain securedEndpoints(HttpSecurity http)
+            throws Exception {
+
         http
+            .securityMatcher("/api/**")
             .cors(cors -> cors.configurationSource(corsConfigurationSource()))
             .csrf(csrf -> csrf.disable())
             .headers(headers -> headers.frameOptions().disable())
-            .securityMatcher("/api/**"  )
-            .sessionManagement(sess -> sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+            .sessionManagement(sess ->
+                sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
             .authorizeHttpRequests(auth -> auth
-                .requestMatchers("/api/v1/auth/users").hasAuthority("SCOPE_ADMIN")
-                .requestMatchers("/api/v1/auth/users/{user_id}/update-authorities/").hasAuthority("SCOPE_ADMIN")
-                .requestMatchers("/api/v1/auth/profile/**").authenticated()
-                .requestMatchers("/api/v1/album/{album_id}/upload-photos").authenticated()
-                .requestMatchers("/api/gitleaks/**").authenticated()  // Add this line
-                // .requestMatchers("/api/v1/album/**").authenticated()
+                .requestMatchers("/api/v1/auth/users")
+                    .hasAuthority("SCOPE_ADMIN")
+                .requestMatchers(
+                    "/api/v1/auth/users/{user_id}/update-authorities/")
+                    .hasAuthority("SCOPE_ADMIN")
+                .requestMatchers("/api/v1/auth/profile/**")
+                    .authenticated()
+                .requestMatchers("/api/v1/album/{album_id}/upload-photos")
+                    .authenticated()
+                .requestMatchers("/api/gitleaks/**")
+                    .authenticated()
                 .anyRequest().authenticated()
             )
             .oauth2ResourceServer(oauth -> oauth.jwt());
+
         return http.build();
     }
 }
-
-
