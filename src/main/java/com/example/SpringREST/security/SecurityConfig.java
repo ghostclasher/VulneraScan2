@@ -21,11 +21,6 @@ import org.springframework.security.oauth2.jwt.JwtEncoder;
 import org.springframework.security.oauth2.jwt.NimbusJwtDecoder;
 import org.springframework.security.oauth2.jwt.NimbusJwtEncoder;
 import org.springframework.security.web.SecurityFilterChain;
-import org.springframework.web.cors.CorsConfiguration;
-import org.springframework.web.cors.CorsConfigurationSource;
-import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
-
-import java.util.List;
 
 @Configuration
 public class SecurityConfig {
@@ -65,44 +60,6 @@ public class SecurityConfig {
         return new NimbusJwtEncoder(jwks);
     }
 
-    // ===================== BULLETPROOF CORS =====================
-    @Bean
-    public CorsConfigurationSource corsConfigurationSource() {
-        CorsConfiguration cfg = new CorsConfiguration();
-
-        // ✅ Works for ALL Vercel deployments + local dev
-        cfg.setAllowedOriginPatterns(List.of(
-                "http://localhost:*",
-                "https://*.vercel.app"
-        ));
-
-        // Allow everything modern apps need
-        cfg.setAllowedMethods(List.of(
-                "GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"
-        ));
-
-        // Allow all headers typically sent by browsers + JWT
-        cfg.setAllowedHeaders(List.of(
-                "Authorization",
-                "Content-Type",
-                "Accept",
-                "Origin",
-                "X-Requested-With"
-        ));
-
-        // Required when sending JWT cookies or Authorization headers
-        cfg.setAllowCredentials(true);
-
-        // Cache preflight for 1 hour (reduces browser checks)
-        cfg.setMaxAge(3600L);
-
-        UrlBasedCorsConfigurationSource src =
-                new UrlBasedCorsConfigurationSource();
-        src.registerCorsConfiguration("/**", cfg);
-
-        return src;
-    }
-
     // ===================== PUBLIC ENDPOINTS =====================
     @Bean
     @Order(1)
@@ -110,24 +67,20 @@ public class SecurityConfig {
             throws Exception {
 
         http
-            // Apply to auth + allow all OPTIONS globally
             .securityMatcher(
                 "/api/v1/auth/**",
                 "/swagger-ui/**",
                 "/v3/api-docs/**",
-                "/db-console/**",
-                "/**"
+                "/db-console/**"
             )
 
-            // 🔥 CRITICAL: enables CORS for preflight
-            .cors(cors -> cors.configurationSource(corsConfigurationSource()))
-
-            // Stateless API = no CSRF tokens needed
+            // CSRF off for stateless API
             .csrf(csrf -> csrf.disable())
 
             .sessionManagement(sess ->
                 sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
 
+            // Everything under auth is public
             .authorizeHttpRequests(auth ->
                 auth.anyRequest().permitAll()
             );
@@ -143,9 +96,6 @@ public class SecurityConfig {
 
         http
             .securityMatcher("/api/**")
-
-            // 🔥 Keep CORS here too
-            .cors(cors -> cors.configurationSource(corsConfigurationSource()))
 
             .csrf(csrf -> csrf.disable())
 
@@ -174,7 +124,7 @@ public class SecurityConfig {
                 .anyRequest().authenticated()
             )
 
-            // Keep your JWT resource server
+            // Keep JWT resource server
             .oauth2ResourceServer(oauth -> oauth.jwt());
 
         return http.build();
