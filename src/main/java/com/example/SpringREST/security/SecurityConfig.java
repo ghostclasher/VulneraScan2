@@ -25,7 +25,7 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
-import java.util.Arrays;
+import java.util.List;
 
 @Configuration
 public class SecurityConfig {
@@ -65,30 +65,35 @@ public class SecurityConfig {
         return new NimbusJwtEncoder(jwks);
     }
 
-    // ===================== GLOBAL CORS CONFIG =====================
+    // ===================== BULLETPROOF CORS =====================
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration cfg = new CorsConfiguration();
 
-        cfg.setAllowedOrigins(Arrays.asList(
-                "http://localhost:5173",
-                "http://localhost:3000",
-                "http://127.0.0.1:5173",
-                "https://vulnerascan-frontend-ls3b.vercel.app"
+        // ✅ Works for ALL Vercel deployments + local dev
+        cfg.setAllowedOriginPatterns(List.of(
+                "http://localhost:*",
+                "https://*.vercel.app"
         ));
 
-        cfg.setAllowedMethods(Arrays.asList(
+        // Allow everything modern apps need
+        cfg.setAllowedMethods(List.of(
                 "GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"
         ));
 
-        cfg.setAllowedHeaders(Arrays.asList(
+        // Allow all headers typically sent by browsers + JWT
+        cfg.setAllowedHeaders(List.of(
                 "Authorization",
                 "Content-Type",
                 "Accept",
-                "Origin"
+                "Origin",
+                "X-Requested-With"
         ));
 
+        // Required when sending JWT cookies or Authorization headers
         cfg.setAllowCredentials(true);
+
+        // Cache preflight for 1 hour (reduces browser checks)
         cfg.setMaxAge(3600L);
 
         UrlBasedCorsConfigurationSource src =
@@ -105,17 +110,24 @@ public class SecurityConfig {
             throws Exception {
 
         http
+            // Apply to auth + allow all OPTIONS globally
             .securityMatcher(
-                "/api/v1/auth/token",
+                "/api/v1/auth/**",
                 "/swagger-ui/**",
                 "/v3/api-docs/**",
-                "/api/v1/auth/users/add",
-                "/db-console/**"
+                "/db-console/**",
+                "/**"
             )
+
+            // 🔥 CRITICAL: enables CORS for preflight
             .cors(cors -> cors.configurationSource(corsConfigurationSource()))
+
+            // Stateless API = no CSRF tokens needed
             .csrf(csrf -> csrf.disable())
+
             .sessionManagement(sess ->
                 sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+
             .authorizeHttpRequests(auth ->
                 auth.anyRequest().permitAll()
             );
@@ -131,25 +143,38 @@ public class SecurityConfig {
 
         http
             .securityMatcher("/api/**")
+
+            // 🔥 Keep CORS here too
             .cors(cors -> cors.configurationSource(corsConfigurationSource()))
+
             .csrf(csrf -> csrf.disable())
+
             .headers(headers -> headers.frameOptions().disable())
+
             .sessionManagement(sess ->
                 sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+
             .authorizeHttpRequests(auth -> auth
                 .requestMatchers("/api/v1/auth/users")
                     .hasAuthority("SCOPE_ADMIN")
+
                 .requestMatchers(
                     "/api/v1/auth/users/{user_id}/update-authorities/")
                     .hasAuthority("SCOPE_ADMIN")
+
                 .requestMatchers("/api/v1/auth/profile/**")
                     .authenticated()
+
                 .requestMatchers("/api/v1/album/{album_id}/upload-photos")
                     .authenticated()
+
                 .requestMatchers("/api/gitleaks/**")
                     .authenticated()
+
                 .anyRequest().authenticated()
             )
+
+            // Keep your JWT resource server
             .oauth2ResourceServer(oauth -> oauth.jwt());
 
         return http.build();
