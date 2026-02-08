@@ -13,7 +13,6 @@ import NotFound from './pages/NotFound';
 import { getToken } from './services/auth';
 import Footer from './components/Footer';
 
-// Build trigger: Vercel rebuild for frontend deployment fix
 function AppRoutes() {
   const PrivateRoute = ({ children }) => {
     const token = getToken();
